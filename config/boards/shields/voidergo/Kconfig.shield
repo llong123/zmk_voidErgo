@@ -1,5 +1,8 @@
 # Copyright (c) 2020 Pete Johanson
 # SPDX-License-Identifier: MIT
+config ZMK_SPLIT_ROLE_CENTRAL
+    bool "Enable split keyboard central role"
+    default y
 
 config SHIELD_VOIDERGO_LEFT
     def_bool $(shields_list_contains,voidergo_left)
