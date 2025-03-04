@@ -5,6 +5,9 @@
  */
 
 #include "voidergo.dtsi"
+&pro_micro {
+    zmk,split-role = "peripheral";
+};
 
 &default_transform {
 	col-offset = <6>;

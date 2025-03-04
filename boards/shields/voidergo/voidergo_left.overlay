@@ -6,6 +6,10 @@
 
 #include "voidergo.dtsi"
 
+&pro_micro {
+    zmk,split-role = "central";  // Left half
+};
+
 // Label of the kscan node in the dtsi
 &kscan0 {
     col-gpios
